@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: #DEBCAF;
+}
+#container{
+	background-color: #F5D4CF;
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 25px;
+	
+
+}

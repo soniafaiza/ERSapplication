@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ERS home page</title>
+<link rel="stylesheet" type="text/css" href="../css/ERS.css">
+
+<link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+<div id = "container">
+<div align = center>
+<h1 class="row col-lg-12" style = "color: blue;"> welcome to the ERS employee Portal</h1>
+<h4 style = "color: orange;">Reimbursement ticket form</h4>
+
+<form id ="reimb" method="post" action="/ERSapplication/reimbursement.change">
+
+  <label for="fname">Reimbursement Amount:</label><br>
+  <input type="number" id="amount" name="amount"><br>
+  
+<label for="date">Date of submission:</label><br>
+<input type="text" id="date of submission" name="date of submission"><br>
+ 
+ <label>Type of the expense<b></b></label> <br>
+ 
+<input type="radio" name="reimbursement-type" value="lodging"> Lodging <br>
+<input type="radio" name="reimbursement-type" value="travel">Travel <br>
+<input type="radio" name="reimbursement-type" value="food"> Food <br>
+<input type="radio" name="reimbursement-type" value="other"> Other <br>		
+						
+						
+<p>Description expense details</p><textarea name="description" rows="4" cols="15"></textarea><br />
+
+<input type="submit" value="Submit">
+ </form>
+ </div>
+ <div align = center>
+ <h4 style = "color: orange;">Click the retrieve button To review the tickets </h4>
+<button id="retrieve"> Retrieve </button>
+</div>
+
+<div id ='ticketTable'>
+</div>
+</div>
+
+<script type="text/javascript" src="js/home.js"></script>
+
+<script type="text/javascript" src="js/employeeScreen.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js%22%3E</script>
+            <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

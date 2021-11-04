@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Manager Page</title>
+<link rel="stylesheet" type="text/css" href="../css/ERS.css">
+
+<link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous">
+
+
+
+</head>
+<body class="manager page">
+<div id = "container">
+<div align = center>
+
+	
+	<h2 style = "color: blue;"> Welcome to the ERS Manager Portal</h2>
+	
+	<script type="text/javascript" src="js/home.js"></script>
+	</div>
+	
+	<div  align = center>
+	<h4>Click the retrieve button To review the tickets </h4>
+	<!-- <button id="retrieve"> Retrieve </button> -->
+	<button id = "retrieve"> Retrieve tickets manager view</button>
+	<select class="custom-select" id="manager" type="number">
+    <option value = "0" selected>Choose...</option>
+    <option value="1">Pending</option>
+    <option value="2">Approved</option>
+    <option value="3">Denied</option>
+  </select>
+	
+	
+	</div>
+	</div>
+	<div id ='ticketTable'>
+	</div>
+	
+	<script type= "text/javascript" src="js/managerScreen.js"></script>
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js%22%3E</script>
+            <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
