@@ -5,11 +5,11 @@ Users can use the application's login portal to sign into their personal account
 
 
 TECHNOLOGIES USED:
-Java
-JDBC
-Jackson Data-bind
-JUnit
-Log4J
-Maven
-Tomcat
-PostgreSQL
+Java,
+JDBC,
+Jackson Data-bind,
+JUnit,
+Log4J,
+Maven,
+Tomcat,
+and PostgreSQL.
