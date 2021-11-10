@@ -4,14 +4,14 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 Users can use the application's login portal to sign into their personal account and access the different services of the application. If a user doesn't already have an account, s/he can register via the registration form; if a user put in wrong credentials they will be redirected to the unsuccessful login page.
 
 ## Technologies Used
-*Java,
-*JDBC,
-*Jackson Data-bind,
-*JUnit,
-*Log4J,
-*Maven,
-*Tomcat,
-*and PostgreSQL.
+* Java,
+* JDBC,
+* Jackson Data-bind,
+* JUnit,
+* Log4J,
+* Maven,
+* Tomcat,
+* and PostgreSQL.
 
 ## Features
 * An employee can submit a new ticket
