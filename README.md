@@ -12,3 +12,11 @@ Log4J,
 Maven,
 Tomcat,
 and PostgreSQL.
+
+## Features
+* An employee can submit a new ticket
+* An employee can also login and review all the tickets submitted with their status: pending, denied or approved
+* A financial manager can login and retrieve all the tickets submitted
+* A manager can also approve or deny a request/ticket
+
+
